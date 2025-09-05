@@ -30,7 +30,7 @@ class GrafanaAlertUser(HttpUser):
         url = "/processObservabilityEvent?proxy=dev&taskid=R5OnlfP9DDvUVlpAIJCt"
         headers = {
             "Content-Type": "application/json",
-            "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkYWdrbm93cy5jb20iLCJzdWIiOiJ5YXNoQGRhZ2tub3dzLmNvbSIsIm5iZiI6MTczNjQ1Mjc5MCwiZXhwIjoxNzY3OTg4OTcwLCJqdGkiOiJsQ0czZ3h3U0ZzbUl1ZDZkIiwiYXVkIjoiZGFna25vd3MiLCJyb2xlIjoiYWRtaW4iLCJ1c2VyX2NsYWltcyI6eyJ1aWQiOiIzOSIsInVuYW1lIjoieWFzaEBkYWdrbm93cy5jb20iLCJvcmciOiJkYWdrbm93cyIsImZpcnN0X25hbWUiOiJZYXNoIiwibGFzdF9uYW1lIjoiWWFkYXYiLCJyb2xlIjoiQWRtaW4iLCJhZXNfa2V5IjoiRGZrMlFucEsvVDlZREZqZ3MwSWIyZytGaXVnS2dSUUsiLCJvZnN0IjpbNDA5LDE4NSwxNjksMzE4LDY4LDE2MCw5OCwzOTgsMzEwLDI0MiwyNDYsMTMxLDIwNiwzODAsMTg4LDI3NiwzNTYsMzUzLDM2OCw5MiwyODIsMzMwLDMxMSwzMzksMzM0LDcxLDI2NCwyOTMsMjc2LDg4LDI1Miw2NV19fQ.Um-DMFIMeT1x-xAat_K8FZcPA0Sl4EhOpXGPvCQee0C_ljztKEmTcpjWVMuDttIRcBiPSUGZSj8olfclT9nxHfFL5hMgJ97a6patSvLaaFfuz7DkJcXmP5eaQGQyx_h1sxWsEgZf7rnenuCRn78ksHjTxOQnAJn7e3OmhIwV2qR6vZgVc2hI9YKonmuFrllu3SqJk93XNhY4C0oH6yTznqjRna4pJVCJIP0iKllqIDyGQAoa4v_u00_xhMMfk6newl9IGo6jQ9xVja77Hmzl09BPuxm2xGvO7pkXj4nYDIjRZV6Lw5-ZV1x0c8n8TJqhCuaEttTeFUUiuUvlartn-A"
+            "Authorization": "Bearer <TOKEN VALUE>"
         }
 
         with open("grafana_alert_sample.json") as f:
