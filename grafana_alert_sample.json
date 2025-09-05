@@ -1,0 +1,34 @@
+{
+  "receiver": "webhook",
+  "status": "firing",
+  "alerts": [
+    {
+      "status": "firing",
+      "labels": {
+        "alertname": "HighPodRestart",
+        "severity": "critical",
+        "namespace": "default",
+        "pod": "nginx-abc123"
+      },
+      "annotations": {
+        "summary": "Pod nginx-abc123 is restarting frequently"
+      },
+      "startsAt": "2024-11-05T12:00:00Z",
+      "endsAt": "0001-01-01T00:00:00Z",
+      "generatorURL": "http://grafana.local/graph"
+    }
+  ],
+  "groupLabels": {
+    "alertname": "HighPodRestart"
+  },
+  "version": "4",
+  "groupKey": "{}:{}",
+  "externalURL": "http://grafana.local",
+  "commonLabels": {
+    "alertname": "HighPodRestart",
+    "severity": "critical"
+  },
+  "commonAnnotations": {
+    "summary": "Pod nginx-abc123 is restarting frequently"
+  }
+}
